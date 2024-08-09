@@ -54,14 +54,15 @@
   "mentor_request_status_update",
   "payment_settings_tab",
   "payment_section",
-  "razorpay_key",
-  "razorpay_secret",
-  "apply_gst",
   "column_break_cfcv",
   "default_currency",
   "show_usd_equivalent",
   "apply_rounding",
   "exception_country",
+  "column_break_mhlb",
+  "razorpay_key",
+  "razorpay_secret",
+  "apply_gst",
   "email_templates_tab",
   "certification_template",
   "batch_confirmation_template",
@@ -242,17 +243,20 @@
   {
    "fieldname": "razorpay_key",
    "fieldtype": "Data",
+   "hidden": 1,
    "label": "Razorpay Key"
   },
   {
    "fieldname": "razorpay_secret",
    "fieldtype": "Password",
+   "hidden": 1,
    "label": "Razorpay Secret"
   },
   {
    "default": "0",
    "fieldname": "apply_gst",
    "fieldtype": "Check",
+   "hidden": 1,
    "label": "Apply GST for India"
   },
   {
@@ -418,12 +422,16 @@
    "fieldtype": "Table",
    "label": "Sidebar Items",
    "options": "LMS Sidebar Item"
+  },
+  {
+   "fieldname": "column_break_mhlb",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2024-06-27 21:57:02.193336",
+ "modified": "2024-08-09 18:27:10.464526",
  "modified_by": "Administrator",
  "module": "LMS",
  "name": "LMS Settings",
